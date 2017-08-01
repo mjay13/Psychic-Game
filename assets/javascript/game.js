@@ -46,7 +46,7 @@ updateGuessesLeft();
 
 //starts when user key is released
 document.onkeyup = function(event) {
-    
+    //put only a-z counts when the key is pressed, only a-z accepted for game to start and continue
     guessesLeft--;
   var userGuess = String.fromCharCode(event.keyCode).toLowerCase();
 
